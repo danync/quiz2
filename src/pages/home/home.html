@@ -1,14 +1,53 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Dispositivos
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+    <ion-col>
+    <ion-row>
+    <button ion-button (click) = "boci()", color="danger">Bocina</button>
+    <button ion-button (click) = "tele()">TV</button>
+    </ion-row>
+    </ion-col>
+    <ion-col>
+    <ion-row>
+        <button ion-button (click) = "sphone()", color="dark">Smartphone</button>
+        <button ion-button (click) = "lampa()", color="secondary">Lámpara</button>
+    </ion-row>
+    </ion-col>
+
+  
+   <!--<ion-col>
+  <ion-row>
+  <ion-card>
+    <ion-card-content>
+      Bocina
+     {{Bocina}}
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      TV
+    </ion-card-content>
+  </ion-card>
+  </ion-row> 
+</ion-col>
+  <ion-row>
+    <ion-card>
+      <ion-card-content>
+        Smartphone
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <ion-card-content>
+        Lámpara
+      </ion-card-content>
+    </ion-card>
+    </ion-row> -->
+
+ 
 </ion-content>
